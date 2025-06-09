@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Presente para o Amor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Tela inicial com coração pulsante -->
+    <div id="start-screen">
+      <div class="heart" onclick="showContent()">
+        ❤️
+      </div>
+    </div>
+
+    <!-- Conteúdo revelado -->
+    <div id="content">
+      <div class="image-container">
+        <img id="side-photo-left" src="foto2.jpeg" alt="Foto Lateral Esquerda" />
+        <img id="main-image" src="foto1.jpeg" alt="Foto Central" />
+        <img id="side-photo-right" src="foto3.jpeg" alt="Foto Lateral Direita" />
+      </div>
+      <div id="countup"></div>
+      <div id="message">
+        Esse presente é só um pedacinho do que sinto por você. <br />
+        Cada segundo contigo me faz contar os minutos pro nosso próximo abraço. <br />
+        Te amo muito bem pouquinho ❤️
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
