@@ -5,7 +5,7 @@ function showContent() {
 }
 
 // Data inicial do relacionamento
-const startDate = new Date("2022-10-27T00:00:00").getTime();
+const startDate = new Date("2023-10-27T00:00:00").getTime();
 
 const countdownInterval = setInterval(function () {
   const now = new Date().getTime();
